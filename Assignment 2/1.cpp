@@ -17,22 +17,22 @@ int main() {
    
     while (min<=max)
     {
-        int m=(max+min)/2;
-        if (a==arr[m]){
-            cout <<"Element found at index "<<m;
+        int mid=(max+min)/2;
+        if (a==arr[mid]){
+            cout <<"Element found at index "<<mid;
             found=true;
             break;
     
 
         }
-        else if ( a < arr[m] )
+        else if ( a < arr[mid] )
 
         {
-            max= m-1;
+            max= mid-1;
         }
 
         else{
-            min = m+1;
+            min = mid+1;
         }
 
     }

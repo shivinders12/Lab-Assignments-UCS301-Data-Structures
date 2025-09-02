@@ -8,7 +8,7 @@ int main() {
     // in every pass one element is placed in its correct position
 
 
-    int arr[5]={8,1,7,5,2};
+    int arr[7]={64,34,25,12,22,11,90};
     int n=5;
 
   

@@ -48,14 +48,14 @@ using namespace std;
         }
     }
 
-    if(st.empty()==false)
+    if(st.empty()==true)
     {
         return true;
     }
 
    }
 int main() {
-   string s= "[{}]";
+   string s= "[{(}]";
 
    bool ans = balancebracket(s);
    if(ans==true)

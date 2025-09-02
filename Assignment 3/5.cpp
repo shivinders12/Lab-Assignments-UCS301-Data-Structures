@@ -10,7 +10,7 @@ int evaluatePostfix(string expr) {
     for (int i = 0; i < expr.length(); i++) {
         char c = expr[i];
 
-        // Skip spaces
+        
         if (c == ' ') continue;
 
         if (isdigit(c)) {
