@@ -50,7 +50,8 @@ bool isFull() {
         if (isEmpty()) {
             cout << "Stack Underflow! Cannot pop." << endl;
         } else {
-            cout << arr[top--] << " popped from stack." << endl;
+            cout << arr[top] << " popped from stack." << endl;
+            top--;
         }
     }
 
