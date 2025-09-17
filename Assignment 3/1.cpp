@@ -39,7 +39,8 @@ bool isFull() {
         if (isFull()) {
             cout << "Stack Overflow! Cannot push " << value << endl;
         } else {
-            arr[++top] = value;
+            arr[top ]= value;
+            top++;
             cout << value << " pushed into stack." << endl;
      
         }
